@@ -7,6 +7,7 @@ const user = {
 // Nampil biasa
 console.log(user.age);
 
+
 // Mengakses dengan square brackets
 console.log(user["asal"]);
 
