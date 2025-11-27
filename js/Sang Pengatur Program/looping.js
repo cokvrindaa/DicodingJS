@@ -27,7 +27,7 @@ while (i < 5) {
 }
 
 // Do while (mengecek kondisi di akhir)
-let i2 = 0;
+let i2 = 1;
 do {
   console.log(`Angka ke-${i2} adalah ${i2}.`);
   i2++;

@@ -22,7 +22,7 @@ switch (buah) {
     console.log("Buah apel");
     break;
   case "pisang":
-    console.logc("Buah Pisang");
+    console.log("Buah Pisang");
     break;
   case "jeruk":
     console.log("ini buah jeruk");
