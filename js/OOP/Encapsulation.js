@@ -1,3 +1,4 @@
+// Encapsulation digunakan untuk mengubah value (dari properti) dari constructor 
 class kopi {
   constructor(waterAmount) {
     this.waterAmount = waterAmount;
