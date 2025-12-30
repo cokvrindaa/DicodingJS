@@ -1,4 +1,3 @@
-console.log('anda memesan makanan!');
 function buatMakan(name, callback) {
     const waktu = 5000;
     let sukses = false;
@@ -36,25 +35,3 @@ function kasihMakan(name, callback) {
         callback(null, name);
     }, waktu)
 }
-
-const order = 'Kopi Espresso';
-
-console.log(`Saya memesan ${order} di kafe.`);
-
-buatMakan(order, (makefoodError, makefoodData) => {
-    if (makefoodError) {
-        console.error(makefoodError);
-        return;
-    }
-
-    kasihMakan(makefoodData, (sendfoodError, sendfoodData) => {
-        if (sendCoffeeError) {
-            console.error(sendfoodError);
-            return;
-        }
-
-        console.log(`
-            pelayan memberikan ${sendfoodData} pesanan.`);
-        console.log(`Saya mendapatkan ${sendfoodData} dan menghabiskannya.`);
-    });
-});
